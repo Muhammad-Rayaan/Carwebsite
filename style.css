@@ -1,0 +1,618 @@
+/* *{
+    background-image: url(https://source.unsplash.com/1200x600/?nature,technology);
+} */
+
+/* nav */
+.nav{
+    margin-right: 510px;
+}
+
+/* cards */
+.card:hover {
+    transform: scale(1.0); /* Increase size on hover */
+    box-shadow: 0  0 10px white, 0  0 12px black;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+.or{
+    padding-top: 60px;
+    font-size: 50px;
+    margin-left: 100px;
+    
+}
+.or:hover{
+   
+    transform: scale(1.1);
+}
+/* firstvideo */
+.vdo video {
+    width: 100%; /* Set video width to 100% of its container */
+    max-width: 100%; /* Ensure the video doesn't exceed its original size */
+    height: auto; /* Automatically adjust the height based on the width */
+  }
+  
+  /* Add additional CSS for specific screen sizes if needed */
+  @media (min-width: 768px) {
+    .vdo video {
+      /* Additional styling for medium-sized screens */
+      max-width: 75%; /* Example: Limit video width to 75% of its container */
+      margin-left: 150px; /* Center the video horizontally */
+    }
+  }
+  
+  @media (min-width: 1992px) {
+    .vdo video {
+      /* Additional styling for large-sized screens */
+      max-width: 50%; /* Example: Limit video width to 50% of its container */
+    }
+  }
+  
+  /* You can add more media queries for other screen sizes as needed */
+  
+  /* heading browse used car */
+  .categroycar {
+    font-size: 35px;
+    text-align: center; /* Center align the heading */
+  }
+  .menu {
+    text-align: center; /* Center align the menu */
+  }
+  @media only screen and (min-width: 768px) {
+    .categroycar {
+      margin-inline-start: 0; /* Remove margin for larger screens */
+    }
+    .menu {
+      margin: 0 auto; /* Center the menu horizontally */
+      display: flex; /* Use flexbox for better alignment */
+      justify-content: center; /* Center items horizontally */
+      max-width: 800px; /* Adjust maximum width as needed */
+    }
+  }
+.container {
+    display: flex;
+    justify-content: space-between; /* To evenly distribute space between elements */
+    margin-inline: 150px; /* Adjust the margin as needed */
+}
+
+.one{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.two{
+    margin-top: 60px;
+    width: 110%;
+}
+.one img,
+.two img {
+   
+    width: 100%; /* Make images responsive */
+}
+.offercar img {
+    margin: 0 auto; /* Center horizontally */
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    display: block; /* Ensure the image is treated as a block element */
+    position: relative; /* Enable positioning */
+    top: -40px; /* Adjust this value to move the image upwards */
+}
+
+
+
+.one:hover{
+  
+    transform: scale(1.1); /* Increase scale by 5% */ 
+}
+.two :hover{
+     transform: scale(1.1); 
+
+}
+.offer{
+  margin-left: 10px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 60px; 
+  background-color: rgb(141, 146, 165);
+    font-size: 20px;
+    border:1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+/* offer percentcar */
+.offercar{
+    margin-top:40px ;
+}
+/* solds */
+.solds{
+color: red;
+text-decoration: underline;
+
+
+}
+
+.card2{
+    border: px solid;
+    margin-left: 150px;
+    width: 300px;
+}
+.card2 :hover{
+ border: 1px solid blueviolet;
+ color:royalblue;
+
+}
+/* manage */
+
+
+/* rayaan motots icons */
+.png{
+width:10px ;
+height:10px ;
+margin-left: 190px;
+padding-block: 1px;
+padding-right: 0%;
+border: none;
+
+}
+.png :hover{
+    color: red;
+}
+.sale{
+    margin-left: 60px;
+    font-size: 40px;
+    
+}
+.cars:hover{
+    box-shadow: 0  0 10px white, 0  0 12px black;
+    transform: scale(1.1s);
+    border-radius: 10px;
+}
+.feature{
+  margin-left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.card-group{
+    padding: 0;
+    margin-inline-start: 10px;
+    margin-right: 100px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+/* background  */
+.Feature{
+    text-decoration: underline;
+}
+.supra{
+    margin-left: 40px;
+}
+.app{
+    margin-left: 10px;
+}
+.app>h2{
+    color: red;
+}
+.app>h2:hover{
+    text-decoration: underline;
+}
+.barcode{
+    margin-left: 180px;
+}
+.phone{
+    margin-left: 20px;
+}
+.copy{
+text-align: center;}
+.side{
+    margin-left: 500px;
+}
+.button{
+    border: none;
+    border-radius: 100px;
+    padding: 0%;
+    margin: 2px;
+
+}
+.button :hover{
+    transform: scale(1.4); 
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .button-container button {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  /* speedmeter */
+
+
+.box{
+    width: 350px;
+    height: 350px;
+   /* border: 2px solid gray; */
+   position: relative;
+   margin-top: 0px;
+   display: flex;
+   margin-left: 100px;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+  /* accelerATOR BUTTON */
+.box #accelerator{
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    right:20px;
+    bottom: 15px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 71);
+    box-shadow: 0px 7px 10px 0px gray;
+    transition: 0.5s;
+}
+.box #accelerator:active{
+    transform-origin:bottom ;
+    transform: rotateX('30deg');
+    box-shadow: 0px 3px 5px 0px gray;
+}
+
+/* break button */
+.box #breakButton{
+    width: 40px;
+    height: 40px;
+    
+    position: absolute;
+    right:70px;
+    bottom: 15px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(93, 94, 97); 
+    box-shadow: 0px 7px 10px 0px gray;
+    transition: 0.2s;
+}
+.box #break:active{
+    transform-origin:bottom ;
+    transform: rotateX('30deg');
+    box-shadow: 0px 3px 5px 0px gray;
+}
+ /* speedometer png*/
+ #speedometer{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px gray;
+    background-image: url(Speedometer-Car-PNG-Pic.png);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* needle */
+#speedometer #needle{
+    width: 3px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    z-index: 111;
+    transform-origin:bottom ;
+    transform: rotate(-134deg);
+    transition: 10s;
+
+}
+#point{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    bottom:-10px;
+    left:-9px;
+    background-color: white;
+     transition: 2s;    
+    
+}
+/* logo rayaan */
+#logo{
+    position: absolute;
+    border: 1px solid white;
+    bottom: 30px;
+     left: 92px;
+     color:cyan;
+     padding: 2px 5px 2px 5px;
+     background-color: gray;
+     z-index:1;
+     animation: 0s  vibrate linear infinite;
+}
+/* use for vibrate my name */
+@keyframes vibrate{
+   from{
+      left: 92px;
+    }
+    to{
+      left: 93px;     
+    }
+
+}
+/* car icons */
+/* Your existing CSS */
+
+.containercar {
+    max-width: 100%;
+    /* Optional: Center the icons horizontally */
+    margin: auto;
+    text-align: center;
+    
+}
+
+.containercar a {
+    /* Add margin around each image */
+    margin-right:60px; /* Adjust this value as needed */
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.containercar img {
+    /* Set the maximum width of the images */
+  width: 90px; /* Adjust this value as needed */
+    /* Ensure the images scale proportionally */
+    height: auto;
+}
+
+.containercar img:hover{
+box-shadow: 0  0 10px white, 0  0 12px black;
+transform: scale(1.1s);
+border-radius: 10px;
+}
+.containercar a:hover{
+color: blue;
+}
+
+
+/* others icons */
+
+
+
+.containericons {
+    max-width: 100%;
+    /* Optional: Center the icons horizontally */
+    margin: auto;
+    text-align: center;
+    
+}
+
+.containericons a {
+    /* Add margin around each image */
+    margin-right:60px; /* Adjust this value as needed */
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.containericons img {
+    /* Set the maximum width of the images */
+    max-width: 80px; /* Adjust this value as needed */
+    /* Ensure the images scale proportionally */
+    height: auto;
+}
+
+.containericons img:hover{
+box-shadow: 0  0 10px white, 0  0 12px black;
+transform: scale(1.1s);
+border-radius: 50px;
+}
+.containericons a:hover{
+color: blue;
+}
+.NewCarsBYMake{
+    margin-left: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 28px;
+}
+/* car tournaments */
+.tournement {
+    display: flex; /* Use flexbox to control the layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.video-wrapper {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.video-wrapper video {
+    max-width: 100%; /* Ensure the video is responsive */
+    height: auto;
+}
+
+.tournement img {
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #669706; /* the color */
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background: var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+                var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+}
+
+img:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 767px) {
+    .tournement {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    
+    .video-wrapper {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+    
+    .tournement img {
+        margin-right: 0; /* Remove right margin on smaller screens */
+    }
+}
+
+      
+      
+/* tournament2 */
+.tournement2 {
+    display: flex; /* Use flexbox to control the layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.tournement2 img {
+    
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #669706; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+  }
+  img:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
+  
+/* Responsive CSS */
+@media screen and (max-width: 767px) {
+    .tournement2 {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    
+    .video-wrapper {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+    
+    .tournement2 img {
+        margin-right: 0; /* Remove right margin on smaller screens */
+    }
+}
+  
+.video-wrapper video {
+    max-width: 100%; /* Ensure the video is responsive */
+    height: auto;
+    /* Your existing CSS for the video */
+    margin-left: 10px;
+}
+
+/* News, Reviews & Discussions */
+.reviewcard img{
+    width:250px;
+    margin-left: 10px;
+}
+
+
+/* 
+team */
+
+  
+  .section-heading {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 64px;
+    color: #10996d;
+    margin: 0 0 70px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .profile:hover {
+    transform: translateY(25px);
+  }
+  
+  .profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #f7f7f7;
+    filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+  }
+
+  .profile:not(:first-child) img {
+    margin-left: -20px;
+  }
+  
+  .profile .name {
+    position: absolute;
+    background-color: #10996d;
+    color: #fff;
+    font-family: "Bebas Neue", cursive;
+    padding: 15px 30px;
+    border-radius: 100px;
+    bottom: -80px; left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50px);
+    letter-spacing: 1px;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  
+  .profile .name::before {
+    content: "";
+    position: absolute;
+    width: 15px; height: 15px;
+    background-color: #10996d;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .profile img:hover + .name {
+    opacity: 1;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+  }

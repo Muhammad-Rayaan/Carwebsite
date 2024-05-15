@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rayaan Motors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="app.js"></script>
+</head>
+  <body>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-secondary bg-gradient">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" width="30px" alt="">Rayaan Motors</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide  carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carsoal2.jpg" width="1400" height="300" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <!-- buttons -->
+          <h1>Welcome To 
+            Rayaan Motors</h1>
+          <p>Here We Are To Provide You The Best Cars </p>
+          <button type="button" class="btn btn-danger">Cars</button>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Bikes</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slide2.jpg" width="1400" height="300" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome To 
+            Rayaan Motors</h1>
+          <p>Here We Are To Provide You The Best Cars </p>
+          <button type="button" class="btn btn-danger">Cars</button>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Bikes</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carosal3.jpg" width="1400" height="300" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome To 
+            Rayaan Motors</h1>
+          <p>Here We Are To Provide You The Best Cars </p>
+          <button type="button" class="btn btn-danger">Cars</button>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Bikes</button>
+        </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <div>
+  <p class="text-decoration-underline fs-2 text-center ">Sell And Buy Car on Rayaan Motor and Get the Best Price</p></div>
+<!-- card -->
+<div class="container">
+  <div class="row">
+    <!-- First card -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="Car.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class=" text-primary card-title">Post Your Ad on Rayaan Motors</h5>
+          <p class="card-text"><img src="tick.png" width="20px"  alt="">Post your Ad for free in 3 Easy Steps. <br> <img src="tick.png" width="20px" alt="">Get Genuine offers from Verified Buyers.<br><img src="tick.png" width="20px" alt="">Sell your car Fast at the Best Price. </p>
+          <a href="#" class="btn btn-danger">Post Your Ad</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speedometer -->
+    <div class="col-md-6">
+      <div class="box">
+        <!-- Car Acceleration -->
+        <audio id="caraccelerator">
+          <source src="Car Acceleration - Sound Effect _ ProSounds(MP3_160K).mp3" type="audio/mpeg">
+        </audio>
+    
+        <!-- Car starting Sound -->
+        <audio id="carsound">
+          <source src="Car starting sound effect(MP3_160K).mp4" type="audio/mpeg">
+        </audio>
+    
+        <!-- car Break Sound -->
+        <audio id="carbreak">
+          <source src="Car brake sound effect  no copyright  music drama(MP3_160K).mp3" type="audio/mpeg">
+        </audio>
+    
+        <!-- accelerator button -->
+        <button id="accelerator" onmousedown="carAccelerator()" onmouseup="carRelease()">|||</button>
+    
+        <!-- break button -->
+        <button id="breakButton" onmousedown="applyBreak()" onmouseup="releaseBreak()">|||</button>
+                
+        <!-- speedometer -->
+        <div id="speedometer">
+          <div id="needle">
+            <div id="point"></div>
+          </div>
+          <div id="logo">Rayaan</div> 
+        </div>
+      </div>
+    </div>
+
+<!-- JavaScript -->
+<script>
+  // audio of accelerator
+  var caraccelerator = document.getElementById("caraccelerator");
+  // audio of car background
+  var carsound = document.getElementById("carsound");
+  // audio of break
+  var carbreak = document.getElementById("carbreak");
+
+  // Function to accelerate the car
+  function carAccelerator() {
+      // Start car acceleration sound
+      caraccelerator.play();
+      // for needle get red
+      document.getElementById("needle").style.cssText = "transform-origin: bottom; transform: rotate(134deg); background-color: red;";
+      // needle point
+      document.getElementById("point").style.backgroundColor = "red";
+      // for logo name shake
+      document.getElementById("logo").style.animation = "vibrate 0.1s linear infinite";
+  }
+
+  // Function to release accelerator
+  function carRelease() {
+      caraccelerator.pause();
+      carsound.play();
+      caraccelerator.currentTime = 9;
+      document.getElementById("needle").style.cssText = "transform-origin: bottom; transform: rotate(-134deg); background-color: white;";
+      document.getElementById("point").style.backgroundColor = "white"; 
+      document.getElementById("logo").style.animation = "none";
+  }
+
+  // Function to apply break
+  function applyBreak() {
+      // Start car break sound
+      carbreak.play();
+      
+  }
+
+  // Function to release break
+  function releaseBreak() {
+      carbreak.pause();
+      carbreak.currentTime = 10;
+  }
+</script>
+<!-- speedmeter end -->
+    <!-- Second card -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="car2.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class=" text-primary card-title">Try Rayaan Motors Sell It For ME</h5>
+          <p class="card-text"><img src="tick.png" width="20px"  alt="">Dedicated Sales Expert to Sell Your Car.<br> <img src="tick.png" width="20px" alt="">We Bargain for you and share the Best Offer.<br><img src="tick.png" width="20px" alt="">We ensure Safe & Secure Traansaction.</p>
+          <a href="#" class="btn btn-primary">Register Your Car</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- map+cars -->
+<div style="max-width: 100%; margin-left: 60px; margin-right: 60px; margin-top: 20px;">
+  <img src="carosal3.jpg" alt="Image" style="width: 100%; height: auto;">
+</div>
+
+<br><br>
+<!-- video -->
+<div class="vdo">
+   <video controls  src="Supra MK4 short edit(720P_HD).mp4"></video>
+
+</div>
+</div>
+<br>
+<br>
+<!-- catagories  menu buttons-->
+<h2 class=" categroycar"><i>Browse Used Cars For Sale</i></h2>
+<br>
+<div class="menu">
+  <button class=" border-danger btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  catagory
+</button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Automatic cars</a></li>
+  <li><a class="dropdown-item" href="#">Familiy Cars</a></li>
+  <li><a class="dropdown-item" href="#">Big Cars</a></li>
+</ul>
+  <!-- Swapped position with the "City" button -->
+  <button class=" border-danger btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Make
+  </button>
+  <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Honda</a></li>
+      <li><a class="dropdown-item" href="#">Toyota</a></li>
+      <li><a class="dropdown-item" href="#">Suzuki</a></li>
+  </ul>
+
+  <!-- Swapped position with the "Make" button -->
+  <button class=" border-danger btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      City
+  </button>
+  <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Lahore</a></li>
+      <li><a class="dropdown-item" href="#">Faisalabad</a></li>
+      <li><a class="dropdown-item" href="#">Multan</a></li>
+  </ul>
+<!-- Swapped position with the "model" button -->
+  <button class=" border-danger btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Model
+  </button>
+  <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Civic</a></li>
+      <li><a class="dropdown-item" href="#">Corolla</a></li>
+      <li><a class="dropdown-item" href="#"></a></li>
+  </ul>
+   <!-- Swapped position with the "budget" button -->
+   <button class=" border-danger btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Budget
+</button>
+<ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Lahore</a></li>
+    <li><a class="dropdown-item" href="#">Faisalabad</a></li>
+    <li><a class="dropdown-item" href="#">Multan</a></li>
+</ul>
+</div>
+
+  <br>
+  <!-- images -->
+  <div class="container">
+    <div class="one">
+        <a href="#">
+            <img src="offer1.png" alt="">
+        </a>
+    </div>
+    <div class="offercar" >
+    <img src="offermid.png"  alt=""></div>
+    <div class="two">
+        <a href="#">
+            <img src="sport car.png" alt="">
+        </a>
+    </div>
+</div>
+
+<!-- offer -->
+<div>
+    <h1 class="offer" >Rayaan Motors Offerings:</h1>
+</div>
+<br> <div></div>
+<!-- card2 -->
+<div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card2">
+        <img src="sale.png" class="card-img-top"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rayaan Motors</h5>
+          <p class="solds">Sell It For Me</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card2">
+        <img src="inspec.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rayaan Motors</h5>
+          <p class="solds">Car Inspection</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card2">
+        <img src="inspect.2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rayaan Motors</h5>
+          <p class="solds">Auction Sheet Verification.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card2">
+        <img src="partner.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rayaan Motors</h5>
+          <p class="solds">Partner Sheet Workshop.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- manage -->
+     <div class="vdo">
+      <h2><i>Our New Model Is Coming Soon:-</i></h2>
+      <video controls muted  src="Car Video.mp4"></video>
+   </div>
+ 
+   <!-- car sales -->
+<div>
+  <h1 class="offer" >Rayaan Motors Selling:-</h1>
+</div>
+<br> <div></div>
+  <!-- card for sale''''' -->
+  <!-- icons of cars -->
+ <h2 class="NewCarsBYMake">New Cars BY Make</h2>
+ <div class="containercar">
+  <a href="#"><img src="automatic car.svg" alt=""> <br>Automatic Cars</a>
+   <a href="#"><img src="familiy car.svg" alt=""> <br>Familiy Cars</a>
+   <a href="#"><img src="Bigcar.svg" alt=""> <br>Big Car</a>
+   <a href="#"><img src="importedcar.svg" alt=""> <br>Imported Cars</a>
+   <a href="#"><img src="5Seater.svg" alt=""> <br>5 Seater</a>
+   <a href="#"><img src="Small car.svg" alt=""> <br>Small Cars</a>
+   <br>
+   <a href="#"><img src="5Seater.svg" alt=""> <br>Branded Cars</a>
+   <a href="#"><img src="japanese.svg" alt=""> <br>Japanese </a>
+   <a href="#"><img src="5Seater.svg" alt=""> <br>Big Cars</a>
+   <a href="#"><img src="Small car.svg" alt=""> <br>Jeep</a>
+   <a href="#"><img src="familiy car.svg" alt=""> <br>600cc Cars</a>
+   <a href="#"><img src="Bigcar.svg" alt=""> <br>Diseal Cars</a>
+   <br>
+   <a href="#"><img src="fourdoor.svg" alt=""> <br>4 Seater</a>
+   <a href="#"><img src="japanese.svg" alt=""> <br>7 Seater</a>
+   <a href="#"><img src="Small car.svg" alt=""> <br>Electric Cars</a>
+   <a href="#"><img src="fivedoor.svg" alt=""> <br>5 Doors</a>
+   <a href="#"><img src="5Seater.svg" alt=""> <br>Electric Cars</a>
+   <a href="#"><img src="Bigcar.svg" alt=""> <br>Sport Cars</a>
+   <br>
+   <a href="#"><img src="japanese.svg" alt=""> <br>Carry Daba</a>
+   <a href="#"><img src="fourdoor.svg" alt=""> <br>Low Priced Car</a>
+   <a href="#"><img src="fivedoor.svg" alt=""> <br>Low Mileage</a>
+   <a href="#"><img src="Bigcar.svg" alt=""> <br>Cheap Cars</a>
+   <a href="#"><img src="Small car.svg" alt=""> <br>Restored Cars</a>
+   <a href="#"><img src="5Seater.svg" alt=""> <br>Old Cars</a>
+ </div>
+             
+<br><br>
+
+      
+<div class=" feature text-body-secondary" >
+  Manage By Rayaan Motors:-
+  <br>  <br>
+</div>
+<div>
+<!-- feature ad -->
+<div class="card-group" >
+  <div class="card custom-card1 ">
+    <a href=""><img src="feature2.jpg" class="card-img-top" alt="..."> Honda City 2023 </a>
+    <div class="card-body">
+      <h5 class="card-title text-success ">PKR 4,790,000
+      </h5>
+      <p class="card-text">Lahore</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card custom-card2 mb-3">
+    <a href=""><img src="toyota 4.jpg" height="271px" class="card-img-top" alt="...">Toyota Corolla 2024 </a>
+    <div class="card-body">
+      <h5 class="card-title text-success">PKR 5,680,000</h5>
+      <p class="card-text">Islamabad</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 1 hours ago</small>
+    </div>
+  </div>
+  <div class="card custom-card3 mb-">
+    <a href=""><img src="toyotaold.jpg" class="card-img-top"  height="270px" alt="...">Toyota Corolla Old </a>
+    <div class="card-body">
+      <h5 class="card-title text-success ">PKR 7,000,000</h5>
+      <p class="card-text">Faislabad</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 25 mins ago</small>
+    </div>
+  </div>
+</div><br><br>
+
+    <!-- icons of cars -->
+ <h2 class="NewCarsBYMake">New Cars BY Make</h2>
+ <div class="containericons">
+  <a href="#"><img src="icons of cars/Suzuki.png" alt=""> <br>Suzuki</a>
+   <a href="#"><img src="icons of cars/Tyota.png" alt=""> <br>Toyota</a>
+   <a href="#"><img src="icons of cars/kia.png" alt=""> <br>KIA</a>
+   <a href="#"><img src="icons of cars/hyundai.png" alt=""> <br>Hyumdai</a>
+   <a href="#"><img src="icons of cars/changcan.jpg" alt=""> <br>Changan</a>
+   <a href="#"><img src="icons of cars/mg.png" alt=""> <br>MG</a>
+   <br>
+   <a href="#"><img src="icons of cars/BMW.png" alt=""> <br>BMW</a>
+   <a href="#"><img src="icons of cars/Audi.png" alt=""> <br>Audi</a>
+   <a href="#"><img src="icons of cars/proton.png" alt=""> <br>Proton</a>
+   <a href="#"><img src="icons of cars/United.png" alt=""> <br>United</a>
+   <a href="#"><img src="icons of cars/porche.png" alt=""> <br>Porche</a>
+   <a href="#"><img src="icons of cars/mercedes.png" alt=""> <br>Mercedes</a>
+   <br>
+   <a href="#"><img src="icons of cars/prince.png" alt=""> <br>Prince</a>
+   <a href="#"><img src="icons of cars/DFSK.png" alt=""> <br>DFSK</a>
+   <a href="#"><img src="icons of cars/Isuzu.png" alt=""> <br>Isuzu</a>
+   <a href="#"><img src="icons of cars/FAW.png" alt=""> <br>Faw</a>
+   <a href="#"><img src="icons of cars/haval.png" alt=""> <br>Haval</a>
+   <a href="#"><img src="icons of cars/baic.png" alt=""> <br>Baic</a>
+   <br>
+   <a href="#"><img src="icons of cars/peugeot.png" alt=""> <br>Peugeot</a>
+   <a href="#"><img src="icons of cars/JW-Forland.png" alt=""> <br>JW Forland</a>
+   <a href="#"><img src="icons of cars/tank.jpg" alt=""> <br>Tank</a>
+   <a href="#"><img src="icons of cars/car-logos_chery.png" alt=""> <br>Chery</a>
+   <a href="#"><img src="icons of cars/JMC.png" alt=""> <br>JMC</a>
+   <a href="#"><img src="icons of cars/Daehan.png" alt=""> <br>Daehan</a>
+  <br>
+  <a href="#"><img src="icons of cars/guko.jpg" alt=""> <br>Guko</a>
+  <a href="#"><img src="icons of cars/seres.png" alt=""> <br>Seres</a>
+  <a href="#"><img src="icons of cars/Tesla.png" alt=""> <br>Tesla</a>
+  <a href="#"><img src="icons of cars/aura.jpg" alt=""> <br>Ora</a>
+  <a href="#"><img src="icons of cars/Yamaha.png" alt=""> <br>Yamaha</a>
+  <a href="#"><img src="icons of cars/Honda.png" alt=""> <br>Honda</a>
+ </div>
+ <br><br>
+ <br>
+ <!-- tournament player -->
+ <div class="card-group">
+  <div class="card">
+    <img src="vindesal.jpg" class="card-img-top" height="289px"  alt="...">
+    <div class="card-body">
+      <a href=""><h5 class=" text-primary text-center card-title">Paul walker & Vin diesel</h5></a>
+      <p class="card-text">
+        Paul Walker and Vin Diesel were not just co-stars; they were the heart and soul of the Fast and Furious franchise, forging a bond both on and off screen that resonated with audiences worldwide. Their dynamic chemistry ignited the screen, creating iconic moments that defined the series. Walker's laid-back charm perfectly complement.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 10 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="paul.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+     <a href=""> <h5 class=" text-primary text-center card-title">Winner of Award in 2023</h5></a>
+      <p class="card-text">
+        Paul Walker was not only an actor but also a philanthropist, and his legacy extends far beyond the silver screen. Known for his roles in the Fast and Furious franchise, Walker captivated audiences with his charisma, charm, and genuine passion for life. However, it was his humanitarian efforts that truly defined him. Through his organization Reach Out Worldwide</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 1 Hour ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="paul2.jpg" class="card-img-top" height="289px" alt="...">
+    <div class="card-body">
+      <a href=""><h5 class=" text-primary text-center card-title">Paul walker </h5></a>
+      <p class="card-text">
+        Paul Walker's enduring legacy goes beyond his accomplishments in Hollywood; it's rooted in his genuine kindness and philanthropic spirit. While he gained fame for his roles in the Fast and Furious franchise, Walker's true victory lies in his humanitarian efforts. Through Reach Out Worldwide, he tirelessly worked to provide aid to those affected by natural disasters.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 13 mins ago</small>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- tournament -->
+<h2 class="text-primary text-center NewCarsBYMake"><i>Tournament IN 2023</i></h2>
+<div class="container-fluid">
+  <div class="tournement">
+    <div class="video-wrapper">
+      <video controls src="tournament.mp4"></video>
+    </div>
+    <img src="paul.webp" style="--c: #945f31;" width="300px">
+  </div>
+</div>
+
+
+<br><br>
+
+<!-- tournament2 -->
+<h2 class="text-primary text-center NewCarsBYMake"><i>Final Race</i></h2>
+<div class="container-fluid">
+  <div class="tournement2">
+    <img src="Vin-Diesel-PNG-Free-Download.png" style="--c: #945f31;" width="300px">
+    <div class="video-wrapper">
+      <video controls src="[2k] Fast X __ Fast X Edit _skyedt7723(720P_HD)_1.mp4"></video>
+    </div>
+  </div>
+</div>
+
+
+<!-- background clr -->
+<div class="p-3 mb-2 bg-light-subtle text-light-emphasis"> 
+<h2 class="Feature" >Popular New Bikes:-</h2>
+<!-- bike ad -->
+<div class="card-group" >
+  <div class="card custom-card1 ">
+    <a href=""><img src="bike1.jpg" class="card-img-top" alt="..."> Honda CD 70 </a>
+    <div class="card-body">
+      <h5 class="card-title text-success ">PKR 157,900
+      </h5>
+      <p class="card-text">★★★★59 Reviews</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 1 mins ago</small>
+    </div>
+  </div>
+  <div class="card custom-card2 mb-3">
+    <a href=""><img src="bike2.jpg" height="271px" class="card-img-top" alt="...">Honda CG 125 </a>
+    <div class="card-body">
+      <h5 class="card-title text-success">PKR 234,900</h5>
+      <p class="card-text">★★★★★92 Reviews</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 5 mins ago</small>
+    </div>
+  </div>
+  <div class="card custom-card3 mb-">
+    <a href=""><img src="bike3.jpg" class="card-img-top"  height="270px" alt="...">Yamaha YBR 125 </a>
+    <div class="card-body">
+      <h5 class="card-title text-success ">PKR 466,000</h5>
+      <p class="card-text">★★★★49 Reviews</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 25 mins ago</small>
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- newbackground -->
+<div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">
+  <div class="container">
+    <div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">
+      <h2 class="Feature">Browse Our Video:-</h2>
+      <br><br> 
+      <div class="row supra">
+        <div class="col-md-6">
+          <a href="#">
+            <video class="img-fluid" controls muted src="Supra MK4 short edit(720P_HD).mp4"></video>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#">
+            <video class="img-fluid" controls muted src="Car Intro Video(720P_HD).mp4"></video>
+          </a>
+        </div>
+      </div>
+      <div class="row supra">
+        <div class="col-md-6">
+          <a href="#">
+            <video class="img-fluid" controls muted src="INTRO. UE5 Automotive Cinematic(720P_HD).mp4"></video>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#">
+            <video class="img-fluid" controls muted src="CINEMATIC - Motorcycle B-Roll(720P_HD).mp4"></video>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<br><br>
+<div>
+  <div class="p-3 mb-2 bg-white text-dark"> 
+    <h3>News, Reviews & Discussions</h3>
+    <a href="#"> Automotive News</a> &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+    <a href="#">Car Reviews</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+    <a href="#">Discussions</a>
+    <br><br>
+    <!-- news and reviews dicsuss -->
+    
+<!-- card of discuss -->
+<div class="discuss">
+  <div class="reviewcard">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="news.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 ">
+        <div class="card-body">
+          <a href=""><h5 class="card-title">Why Should I Consider Buying Used Vehicles. A Comparison</h5></a> 
+          <p class="card-text">Car financing plays an important role when deciding whether to purchase a new or used car. However, it can be exciting to buy a new car. On the contrary, customers should also consider buying a used vehicle as it offers several benefits. Buyers often</p>
+          <p class="card-text"><small class="text-body-secondary">March 13, 2024</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- New card starts here -->
+  <div class="reviewcard">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="pama.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <a href=""><h5>PAMA Car Sales Decreased by 8% Last Month</h5></a> 
+          <p>After a brief uptick for a month or two, there has been another downturn in car sales. According to the latest report from the Pakistan Automotive Manufacturers Association (PAMA), there was a significant 8% decrease in month-on-month</p>
+          <p><small class="text-body-secondary">March 13, 2024</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+<!-- getapp -->
+<div class="container">
+                 <div class="app">
+                 <h2>Get The Rayaan Motors App</h2>
+                 <p>Buy & Sell Cars, Bikes and Auto Parts faster and betterusing our App</p>
+                  <button type="button" class="btn btn-primary"><img src="ply.png" width="30px"  alt="">Google Play</button>
+                  <button type="button" class="btn btn-secondary"> <img src="app.png" width="30px" alt="">App Store</button>
+                  <button type="button" class="btn btn-success"> <img src="huawei.png" width="30px" alt="">App Gallery</button>
+<!-- barcode image -->
+                  <img class="barcode" src="barcode.png" alt=""> Scan To Get app 
+                  <img  class="phone" src="phone.png" alt="">
+</div>
+</div>
+</div>
+<!-- End -->
+<div class="   p-3 mb-2 bg-dark.bg-gradient">
+                 <div class="container" >
+                 <div class="col-md-9">
+                 <div class="row">
+                 <div class="col-md-3">
+                 <ul class="nomargin footer-links list-unstyled" id="footer-Make">
+                 <li><h5>Cars By Make</h5></li>                  
+              <li class=" end" ><a href="/used-cars/toyota/33" id="footer_Toyota" title="Toyota Cars for Sale">Toyota Cars for Sale</a></li>
+              <li><a href="/used-cars/suzuki/32" id="footer_Suzuki" title="Suzuki Cars for Sale">Suzuki Cars for Sale</a></li>
+              <li><a href="/used-cars/honda/14" id="footer_Honda" title="Honda Cars for Sale">Honda Cars for Sale</a></li>
+              <li><a href="/used-cars/daihatsu/12" id="footer_Daihatsu" title="Daihatsu Cars for Sale">Daihatsu Cars for Sale</a></li>
+              <li><a href="/used-cars/mitsubishi/25" id="footer_Mitsubishi" title="Mitsubishi Cars for Sale">Mitsubishi Cars for Sale</a></li>
+              <li><a href="/used-cars/nissan/26" id="footer_Nissan" title="Nissan Cars for Sale">Nissan Cars for Sale</a></li>                  
+              <li><a href="/used-cars/mercedes-benz/23" id="footer_Mercedes" title="Mercedes Cars for Sale">Mercedes Cars for Sale</a></li>
+              <li><a href="/used-cars/hyundai/15" id="footer_Hyundai" title="Hyundai Cars for Sale">Hyundai Cars for Sale</a></li>                  
+              <li><a href="/used-cars/bmw/8" id="footer_BMW" title="BMW Cars for Sale">BMW Cars for Sale</a></li>
+</ul>
+</div>
+          <div class="col-md-3">
+               <ul class="nomargin footer-links list-unstyled" id="footer-City">
+               <li><h5>Cars By City</h5></li>
+                <li><a href="/used-cars/lahore/24858" id="footer_Lahore" title="Cars for Sale in Lahore">Cars in Lahore</a></li>
+                <li><a href="/used-cars/karachi/24857" id="footer_Karachi" title="Cars for Sale in Karachi">Cars in Karachi</a></li>
+                <li><a href="/used-cars/islamabad/24856" id="footer_Islamabad" title="Cars for Sale in Islamabad">Cars in Islamabad</a></li>
+                <li><a href="/used-cars/rawalpindi/24831" id="footer_Rawalpindi" title="Cars for Sale in Rawalpindi">Cars in Rawalpindi</a></li>
+                <li><a href="/used-cars/peshawar/24821" id="footer_Peshawar" title="Cars for Sale in Peshawar">Cars in Peshawar</a></li>
+                <li><a href="/used-cars/faisalabad/24753" id="footer_Faisalabad" title="Cars for Sale in Faisalabad">Cars in Faisalabad</a></li>
+                <li><a href="/used-cars/multan/24810" id="footer_Multan" title="Cars for Sale in Multan">Cars in Multan</a></li>
+                <li><a href="/used-cars/gujranwala/24763" id="footer_Gujranwala" title="Cars for Sale in Gujranwala">Cars in Gujranwala</a></li>
+                <li><a href="/used-cars/sialkot/24841" id="footer_Sialkot" title="Cars for Sale in Sialkot">Cars in Sialkot</a></li>
+</ul>
+</div>
+        <!-- Explore Rayaan Motors -->
+         <div class="col-md-3">
+          <ul class="nomargin footer-links list-unstyled">
+          <li><h5>Explore Rayaan Motors</h5></li>
+          <li><a href="/used-cars/" title="Used Cars">Used Cars</a></li>
+          <li><a href="/used-bikes/" title="Used Bikes">Used Bikes</a></li>
+          <li><a href="/new-cars/" title="New Cars">New Cars</a></li>
+          <li><a href="/accessories-spare-parts/search/-/buynow_1/" title="Spare Parts and Accessories for Sale in Pakistan">Auto Parts &amp; Accessories</a></li>
+          <li><a href="/rides/" rel="nofollow" title="Cool Rides">Cool Rides</a></li>
+          <li><a href="#" rel="nofollow" title="Forums">Forums</a></li>
+          <li><a href="/autoshow" rel="nofollow" title="Autoshow">Autoshow</a></li>
+          <li><a href="/sitemap/" title="Sitemap">Sitemap</a></li>
+</ul>
+</div>
+         <div class="col-md-3">
+         <ul class="nomargin footer-links list-unstyled">
+
+          <li><h5>RayaanMotors.com</h5></li>
+          <li><a href="#" rel="nofollow" title="About RayaanMotors ">About RayaanMotors.com</a></li>
+          <li><a href="#" rel="nofollow" title="Our Products">Our Products</a></li>
+          <li><a href="#" rel="nofollow" title="Advertise With Us">Advertise With Us</a></li>
+          <li><a href="#" rel="nofollow" title="How To Pay">How To Pay</a></li>
+          <li><a href="#" rel="nofollow" title="FAQs">FAQs</a></li>
+          <li><a href="#" rel="nofollow" title="Refunds &amp; Returns">Refunds &amp; Returns</a></li>
+          <li><a href="#" rel="nofollow" title="Careers">Careers</a></li>
+          <li><a href="#" rel="nofollow" title="Contact Us">Contact Us</a></li>
+</ul>
+</div>
+</div>
+            <div class="row mt20">
+
+            <div class="col-md-3">
+            <ul class="nomargin footer-links list-unstyled" id="footer-category"><li><h5>Cars by Category</h5></li><li><a href="/used-cars/jeep/72893" title="Jeeps for sale in Pakistan">Jeep</a></li><li><a href="/used-cars/japanese/65933" title="Used Japanese Cars for sale in Pakistan - Japan Auction Cars">Japanese Cars</a></li><li><a href="/used-cars/imported/57428" title="Imported Cars for Sale in Pakistan">Imported Cars</a></li><li><a href="/used-cars/automatic/57336" title="Automatic Cars for Sale in Pakistan">Automatic Cars</a></li><li><a href="/used-cars/low-priced/328875" title="Low Price Cars in Pakistan for Sale">Low Priced Cars</a></li><li><a href="/used-cars/4x4/107784" title="4x4 Cars for sale in Pakistan - Four Wheel Cars">4x4 Cars</a></li><li><a href="/used-cars/660cc-cars/190519" title="660cc Cars for Sale in Pakistan">660cc Cars</a></li><li><a href="/used-cars/1000cc-cars/190769" title="1000cc Cars for Sale in Pakistan">1000cc Cars</a></li></ul>
+</div>
+
+            <div class="col-md-3">
+            <ul class="nomargin footer-links list-unstyled" id="footer-body_type"><li><h5>Cars by Body Type</h5></li><li><a href="/used-cars/sedan/107775" title="Sedan Cars for Sale">Sedan</a></li><li><a href="/used-cars/hatchback/107774" title="Hatchback Cars for Sale">Hatchback</a></li><li><a href="/used-cars/suv/107776" title="SUV Cars for Sale">SUV</a></li><li><a href="/used-cars/crossover/107782" title="Crossover Cars for Sale">Crossover</a></li><li><a href="/used-cars/mini-van/107785" title="Mini Van Cars for Sale">Mini Van</a></li><li><a href="/used-cars/mpv/145760" title="MPV Cars for Sale">MPV</a></li><li><a href="/used-cars/van/162471" title="Van Cars for Sale">Van</a></li><li><a href="/used-cars/compact-sedan/441106" title="Compact sedan Cars for Sale">Compact sedan</a></li></ul> 
+</div>
+
+            <div class="col-md-3">
+            <ul class="nomargin footer-links list-unstyled" id="footer-color"><li><h5>Cars by Color</h5></li><li><a href="/used-cars/white/107804" title="White Cars for Sale">White Cars</a></li><li><a href="/used-cars/silver/107802" title="Silver Cars for Sale">Silver Cars</a></li><li><a href="/used-cars/black/107787" title="Black Cars for Sale">Black Cars</a></li><li><a href="/used-cars/grey/107794" title="Grey Cars for Sale">Grey Cars</a></li><li><a href="/used-cars/blue/107788" title="Blue Cars for Sale">Blue Cars</a></li><li><a href="/used-cars/red/107801" title="Red Cars for Sale">Red Cars</a></li><li><a href="/used-cars/green/107793" title="Green Cars for Sale">Green Cars</a></li><li><a href="/used-cars/gold/107792" title="Gold Cars for Sale">Gold Cars</a></li></ul>
+</div>
+            <div class="col-md-3">
+            <ul class="nomargin footer-links list-unstyled" id="footer-province"><li><h5>Cars by Province</h5></li><li><a href="/used-cars/punjab/201902" title="Punjab Cars for Sale">Cars in Punjab</a></li><li><a href="/used-cars/sindh/201932" title="Sindh Cars for Sale">Cars in Sindh</a></li><li><a href="/used-cars/kpk/201917" title="KPK Cars for Sale">Cars in KPK</a></li><li><a href="/used-cars/balochistan/201947" title="Balochistan Cars for Sale">Cars in Balochistan</a></li><li><a href="/used-cars/azad-kashmir/201953" title="Azad Kashmir Cars for Sale">Cars in Azad Kashmir</a></li><li><a href="/used-cars/federally-administered-tribal-areas/201951" title="Federally Administered Tribal Areas Cars for Sale">Cars in Federally Administered Tribal Areas</a></li></ul>
+</div>
+</div>
+</div>
+<!-- side login -->
+<div class="col-md-3">
+            <div class="row">
+            <div class="col-md-12" style="padding-left: 100px;">
+            <ul class="nomargin footer-links list-unstyled">
+<li>
+            <h5>Sell On Rayaan Motors</h5>
+      </li>
+      <li><a href="/used-cars/sell" class="sign-in-comp" id="foot-sell-car" onclick="trackEvents('UsedCars', 'Add Car', 'From - Footer')" title="Sell Your Car in Pakistan">Sell Your Car</a></li>
+      <li><a href="/used-bikes/sell" class="sign-in-comp" id="foot-sell-bike" onclick="trackEvents('UsedBikes','Sellform','From - Footer')" title="Sell Your Bike in Pakistan">Sell Your Bike</a> </li>
+      <li><a href="/accessories-spare-parts/sell" class="sign-in-comp" id="foot-sell-accessory" onclick="trackEvents('Accessories','Sell','From - Footer')" title="Sell Autoparts &amp; Accessories in Pakistan">Sell Accessory</a></li>
+      </ul>
+</div>
+</div>
+    <!-- loginform -->
+ <div class="row" style="padding-left: 90px;" >
+      <form id="subscribe_newsletter" class="form-horizontal newsletter-subscription">
+      <h5>Subscribe to our Newsletter</h5>
+      <div id="newsletter-message" style="display:none; font-size: 14px; color: #999999;"></div>
+      <div class="form-fields">
+      <input type="text" id="email" name="email" placeholder="Name@email.com" style="width: 100%; font-family: arial;">
+      <button type="submit" class="btn btn-success btn-xs" style="margin-left:50px; margin-top: 6px; ">Subscribe</button>
+      <div class="error-message" style="color:red;"></div>
+</div>
+</form>
+     <div class="mb30 footer-social clearfix">
+<br>   
+     <!-- follow us  -->
+<h5>Follow Us</h5>
+       <button class="button"><a href="#"><img src="twitter.png" alt="..."  width="29px"></a></button>
+       <button class="button"><a href="E:\Corvit\Website1\Facebook Link With Insta\index.html"><img src="facebook.png" alt="..."  width="29px"></a></button>
+       <button class="button"><a href="E:\Corvit\Website1\insta\index.html"><img src="instagram.png" alt="..."  width="29px"></a></button>
+       <button class="button"><a href="#"><img src="whatsapp.png" alt="..."  width="29px"></a></button> 
+       <button class="button"><a href="#"><img src="youtube.png" alt="..."  width="29px"></a></button>
+  
+         <ul class="list-unstyled list-inline networks primary-lang">
+<li>
+         <a href="#" class="twitter" rel="nofollow" target="_blank" title="Follow Us On Twitter"><i class="fa fa-twitter"></i></a>
+       </li>
+<li>
+         <a href="#" class="facebook" rel="nofollow" target="_blank" title="Follow Us On Facebook"><i class="fa fa-facebook"></i></a>
+       </li>
+<li>
+         <a href="#" class="Instagram" rel="nofollow" target="_blank" title="Follow Us On Instagram"><i class="fa fa-pinterest"></i></a>
+       </li>
+<li>
+         <a href="#" class="whatsapp" rel="nofollow" target="_blank" title="Follow Us On Whatsapp"><i class="fa fa-instagram"></i></a>
+       </li>
+<li>
+         <a href="#" class="youtube" rel="me" target="_blank" title="Follow Us On Youtube"><i class="fa fa-youtube"></i></a>
+       </li>
+</ul>
+</div>
+         <br><br><br><br>
+<div>
+<!-- mobile app -->
+        <h5>
+        <a href="/apps" class="generic-white">Download Mobile Apps</a>
+        </h5>
+<!-- Buttons -->
+<div class="button-container">
+       <button type="button" class="btn btn-primary"><img src="ply.png" width="30px" alt="">Google Play</button>
+       <button type="button" class="btn btn-secondary"><img src="app.png" width="30px" alt="">App Store</button>
+       <button type="button" class="btn btn-success"><img src="huawei.png" width="30px" alt="">App Gallery</button>
+</div>
+        </div>   
+        </div>
+        </div>
+        </div>
+</div>
+<!-- team -->
+<section class="team">
+  <h2 class="section-heading">Our Team</h2>
+  <div class="container">
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt=""/><span class="name">Kalyan</span>
+    </div>
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1530577197743-7adf14294584?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80" alt=""/><span class="name">Suchitra Tiwari</span>
+    </div>
+
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1598641795816-a84ac9eac40c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80" alt=""/><span class="name">Sajid Ghani</span>
+    </div>
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt=""/><span class="name">Dhriti</span>
+    </div>
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1618018352910-72bdafdc82a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt=""/><span class="name">Milind</span>
+    </div>
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=801&q=80" alt=""/><span class="name">Srikant Tiwari</span>
+    </div>
+    <div class="profile">
+      <img src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt=""/><span class="name">Major Sameer</span>
+    </div>
+  </div>
+</section>
+<br><b><br></br>
+<!-- hr for line -->
+<hr class="dark">
+         <div class="copy">
+  Copyright © 2003 - 2024 RayaanMotors (Pvt) Ltd. - All Rights Reserved.<br>
+  <a href="/main/terms" rel="nofollow" title="Terms of Service">Terms of Service</a>&nbsp;|&nbsp;
+  <a href="/privacy-policy" rel="nofollow" title="Privacy Policy">Privacy Policy</a> 
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
